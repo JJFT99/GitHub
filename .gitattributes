@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+cd practica-github
+echo "Aprendiendo GitHub paso a paso" > aprendizaje.txt
+git add aprendizaje.txt
+git commit -m "Anadido archivo aprendizaje.txt"
+git push origin main
+
+git pull origin main
